@@ -6,4 +6,4 @@ We perform **image segmentation** using the *Otsu's method* and we apply the **C
 We refine our result applying the **erosion operation** and we finally draw the detected defects.
 
 ------------------
-*The analyzed images in `images` folder are kindly provided by [UNITEC S.p.a.](http://www.unitec-group.com/) and they are part of the dataset used in the course 91254 - Image Processing and Computer Vision - University of Bologna.*
+*The analyzed images in `images` folder are kindly provided by [UNITEC S.p.a.](http://www.unitec-group.com/) and they are part of the dataset used in the course [91254 - Image Processing and Computer Vision - University of Bologna](https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2019/446598).*
