@@ -1,4 +1,4 @@
-# Fruit Inspection Project
+# Fruit Inspection 
 
 I analyzed some fruit images to detect potential imperfections.
 
