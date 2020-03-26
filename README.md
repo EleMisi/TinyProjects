@@ -6,7 +6,7 @@ For each work you can find a post on my website (see below).
 
 -------------------------------------------------------
 
-### Agent-based simulation
+### Agent-based Simulation
 Hospital Reception -> https://eleonoramisino.altervista.org/hospital-reception/
 
 ### Computer Vision
