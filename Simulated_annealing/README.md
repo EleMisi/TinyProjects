@@ -1,4 +1,4 @@
-# Simulated Annealing algorithm
+# Simulated Annealing algorithm - Work in progress
 
 A very basic SA implementation with some test functions (Ackley, Himmelblau, Rosenbrock and Rastrigin).
 
