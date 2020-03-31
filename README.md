@@ -9,3 +9,6 @@ Hospital Reception -> https://eleonoramisino.altervista.org/hospital-reception/
 
 ### Computer Vision
 Fruit Inspection -> https://eleonoramisino.altervista.org/fruit-inspection/
+
+### Optimization
+Simulated Annealing -> https://eleonoramisino.altervista.org/simulated-annealing/
