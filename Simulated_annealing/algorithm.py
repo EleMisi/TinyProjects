@@ -195,6 +195,8 @@ def SA(cooling, acceptance_prob, energy, move, interval, initial_temp = 100.,
                 print(dash)
                 print("REANNILING")
                 print(dash)
+            energies = []
+            states = []
             s = best_s
             energy_s = best_e
             T = initial_temp
