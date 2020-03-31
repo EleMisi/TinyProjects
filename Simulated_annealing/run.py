@@ -82,7 +82,7 @@ if __name__ == '__main__':
     #--------Plot results---------
     for k,v in exit_interations.items():
         print("\n")
-        print("Function: {}\nStopping criterion: {}\nNumber of iteration: {}\nReannling: {}".format(k,v[0],v[1], v[2]))
+        print("Function: {}\nStopping criterion: {}\nNumber of iterations: {}\nReanniling: {}".format(k,v[0],v[1], v[2]))
     
     plot_results(results)
     
