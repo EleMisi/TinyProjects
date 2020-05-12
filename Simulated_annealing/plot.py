@@ -11,7 +11,7 @@ from test_functions import ackley_fn, rastrigin_fn, rosenbrock_fn, himmelblau_fn
 
 def plot_results(results):
 
-    fig = plt.figure( figsize = (20,20))
+    
 
     #--------Test functions plot--------
 
@@ -45,8 +45,10 @@ def plot_results(results):
             functions['Rastrigin'][1].append(j)
             functions['Rastrigin'][2].append(rastrigin_fn((i/100, j/100)))
 
+    fig = plt.figure( figsize = (20,10))
+
     #Ackley function
-    ax1 = fig.add_subplot(421, projection='3d', title = 'Ackley')
+    ax1 = fig.add_subplot(221, projection='3d', title = 'Ackley')
     xs = functions['Ackley'][0]
     ys = functions['Ackley'][1]
     zs = functions['Ackley'][2]
@@ -56,7 +58,7 @@ def plot_results(results):
     ax1.set_zlabel('energy')
 
     #Himmelblau function
-    ax2 = fig.add_subplot(422, projection='3d', title = 'Himmelblau')
+    ax2 = fig.add_subplot(222, projection='3d', title = 'Himmelblau')
     xs = functions['Himmelblau'][0]
     ys = functions['Himmelblau'][1]
     zs = functions['Himmelblau'][2]
@@ -66,7 +68,7 @@ def plot_results(results):
     ax2.set_zlabel('energy')
 
     #Rastrigin function
-    ax3 = fig.add_subplot(423, projection='3d', title = 'Rastrigin')
+    ax3 = fig.add_subplot(223, projection='3d', title = 'Rastrigin')
     xs = functions['Rastrigin'][0]
     ys = functions['Rastrigin'][1]
     zs = functions['Rastrigin'][2]
@@ -76,7 +78,7 @@ def plot_results(results):
     ax3.set_zlabel('energy')
 
     #Rosenbrock function
-    ax4 = fig.add_subplot(424, projection='3d', title = 'Rosenbrock')
+    ax4 = fig.add_subplot(224, projection='3d', title = 'Rosenbrock')
     xs = functions['Rosenbrock'][0]
     ys = functions['Rosenbrock'][1]
     zs = functions['Rosenbrock'][2]
@@ -85,7 +87,7 @@ def plot_results(results):
     ax4.set_ylabel('y')
     ax4.set_zlabel('energy')
 
-
+    plt.savefig("./images/test_fn.png")
     #------------Results plot-----------------
 
     #Organize the results of the performance tests
@@ -110,8 +112,9 @@ def plot_results(results):
     Rosen_energy = np.array(results['Rosenbrock'][1])
     Rosen_temp = np.array(results['Rosenbrock'][2])
 
+    fig = plt.figure( figsize = (20,10))
     #Ackley plot
-    ax1 = fig.add_subplot(425, projection='3d', title = 'Ackley test')
+    ax1 = fig.add_subplot(221, projection='3d', title = 'Ackley test')
     xs = Ackley_points[:,0]
     ys = Ackley_points[:,1]
     zs = Ackley_energy
@@ -124,7 +127,7 @@ def plot_results(results):
     ax1.set_zlabel('energy')
 
     #Himmelblau plot
-    ax2 = fig.add_subplot(426, projection='3d', title = 'Himmelblau test')
+    ax2 = fig.add_subplot(222, projection='3d', title = 'Himmelblau test')
     xs = Himm_points[:,0]
     ys = Himm_points[:,1]
     zs = Himm_energy
@@ -138,7 +141,7 @@ def plot_results(results):
     ax2.set_zlabel('energy')
 
     #Rastrigin plot
-    ax3 = fig.add_subplot(427, projection='3d', title = 'Rastrigin test')
+    ax3 = fig.add_subplot(223, projection='3d', title = 'Rastrigin test')
     xs = Rastr_points[:,0]
     ys = Rastr_points[:,1]
     zs = Rastr_energy
@@ -151,7 +154,7 @@ def plot_results(results):
     ax3.set_zlabel('energy')
 
     #Rosenbrock plot
-    ax4 = fig.add_subplot(428, projection='3d', title = 'Rosenbrock test')
+    ax4 = fig.add_subplot(224, projection='3d', title = 'Rosenbrock test')
     xs = Rosen_points[:,0]
     ys = Rosen_points[:,1]
     zs = Rosen_energy
@@ -163,7 +166,7 @@ def plot_results(results):
     ax4.set_ylabel('y')
     ax4.set_zlabel('energy')
 
-    plt.savefig("./SA_test.png")
+    plt.savefig("./images/results.png")
     plt.show()
 
     
