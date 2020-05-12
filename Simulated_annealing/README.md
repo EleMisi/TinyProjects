@@ -1,8 +1,4 @@
 # Simulated Annealing 
-
-A very basic SA implementation with some test functions (Ackley, Himmelblau, Rosenbrock and Rastrigin).
-
-# Hospital Reception 
 Simulated Annealing is a project realized as part of the *Combinatorial Decision Making and Optimization* exam of the [Master's degree in Artificial Intelligence,  University of Bologna](https://corsi.unibo.it/2cycle/artificial-intelligence).
 
 The aim of this project is to test the **Simulated Annealing** technique on different test functions.
