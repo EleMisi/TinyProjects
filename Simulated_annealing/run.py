@@ -22,7 +22,7 @@ if __name__ == '__main__':
                         choices=None, help='Initial temperature. [default: 100]', metavar=None)
     parser.add_argument('-k', '--k_max', action='store', nargs='?', const=None, default=1e6, type=int,
                         choices=None, help='Max number of iterations. [default: 1e6]', metavar=None)
-    parser.add_argument('-tv', '--tolerance_value', action='store', nargs='?', const=None, default=1e-6, type=int,
+    parser.add_argument('-tv', '--tolerance_value', action='store', nargs='?', const=None, default=1e-6, type=float,
                         choices=None, help='Tolerance Energy value for stopping criterion [default: 1e-6]', metavar=None)
     parser.add_argument('-ti', '--tolerance_iter', action='store', nargs='?', const=None, default=1000, type=int,
                         choices=None, help='Number of iterations taken into account in Tolerance Energy. [default: 1000]', metavar=None)
