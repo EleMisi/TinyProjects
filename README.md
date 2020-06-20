@@ -12,6 +12,9 @@ For each project you can find more information on my website.
 
 * **Optimization**
   * [Simulated Annealing](https://eleonoramisino.altervista.org/simulated-annealing/)
+  
+* **Probabilistic Graphical Models**
+  * [The publishing house network](https://eleonoramisino.altervista.org/the-publishing-house-network/)
 
 ## License
 The projects are licensed under the Apache License 2.0 - see the [LICENSE.md](https://github.com/EleMisi/TinyProjects/blob/master/LICENSE) file for details.
