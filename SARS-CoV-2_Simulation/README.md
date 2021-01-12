@@ -1,5 +1,5 @@
 # SARS-CoV-2 spread in a company
-This project was realized as part of the *Complex Systems and Network Science* exam of the [Master's degree in Artificial Intelligence,  University of Bologna](https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2020/461740).
+This project was realized as part of the [*Complex Systems and Network Science*](https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2020/461740) exam of the [Master's degree in Artificial Intelligence,  University of Bologna](https://corsi.unibo.it/2cycle/artificial-intelligence).
 
 The aim of the project is to simulate SARS-CoV-2 spread in a fictional and simplified
 company named *CSNS_Group*, and test different countermeasures (**face masks, contact tracing, vaccination**). 
