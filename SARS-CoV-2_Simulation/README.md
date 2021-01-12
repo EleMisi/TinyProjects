@@ -13,32 +13,25 @@ See the [project review](https://eleonoramisino.altervista.org/wp-content/upload
 
 ### Local Version
 1. Download the *CSNS_Group.nlogo* file.
-2. Open it with NetLogo application.
+2. Open it with [NetLogo](https://ccl.northwestern.edu/netlogo/index.shtml).
 3. Follow the instruction reported in the model *Info*.
 
 
-## Simulation Overview
-The reception is displayed on the left, while on the right you can find:
-* the chart A showing the total number of patients and the number of waiting patients;
-* the chart B showing the average time spent in queue;
-* the value of  *Rho*, which is strictly related to the **equilibrium condition** of our system. 
-![Simulation Overview](https://github.com/EleMisi/TinyProjects/blob/master/SARS-CoV-2_Simulation/images/ModelOverview.jpg)
-
-### Built With
+## Built With
 
 * [NetLogo v6.1.1](https://ccl.northwestern.edu/netlogo/index.shtml)
 
 
-### Author
+## Author
 
 * [EleMisi](https://github.com/EleMisi)
 
 
-### License
+## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE.md](https://github.com/EleMisi/TinyProjects/blob/master/LICENSE) file for details.
 
-### References
+## References
 * ProMED. Undiagnosed pneumonia - china. https://promedmail.org/
 promed-post/?id=6864153%20#COVID19.
 * T. A. Ghebreyesus. Who director-general's opening remarks
