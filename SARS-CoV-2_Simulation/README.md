@@ -2,7 +2,7 @@
 This project was realized as part of the *Complex Systems and Network Science* exam of the [Master's degree in Artificial Intelligence,  University of Bologna](https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2020/461740).
 
 The aim of the project is to simulate SARS-CoV-2 spread in a fictional and simplified
-company named *CSNS_Group*, and test different countermeasures. 
+company named *CSNS_Group*, and test different countermeasures (**face masks, contact tracing, vaccination**). 
 
 The company has a team-based organizational structure which network of contacts is build using a power-law
 distribution. To simulate the **epidemic evolution** and **test different scenarios** we define an **epidemic model** with 6 classes and 5 control parameters.
@@ -66,5 +66,9 @@ Biological sciences / The Royal Society, 270, 01 2003.
 * Lorenzo Pellis, Frank Ball, Shweta Bansal, Ken Eames, Thomas House, Valerie
 Isham, and Pieter Trapman. Eight challenges for network epidemic models. Epi-
 demics, 10:58 { 62, 2015. Challenges in Modelling Infectious DIsease Dynamics.
+
+# External Links
+* [project review](https://eleonoramisino.altervista.org/wp-content/uploads/2021/01/SARS_CoV_2_Report.pdf) 
+* [SARS-CoV-2 project on my website](https://eleonoramisino.altervista.org/sars-cov-2-spread-in-a-company/)
 
 
