@@ -7,6 +7,9 @@ company named *CSNS_Group*, and test different countermeasures (**face masks, co
 The company has a team-based organizational structure which network of contacts is build using a power-law
 distribution. To simulate the **epidemic evolution** and **test different scenarios** we define an **epidemic model** with 6 classes and 5 control parameters.
 
+#### Model Diagram
+<img src="https://eleonoramisino.altervista.org/wp-content/uploads/2021/01/Model_Diagram.jpg" alt="drawing" width="500"/>
+
 See the [project review](https://eleonoramisino.altervista.org/wp-content/uploads/2021/01/SARS_CoV_2_Report.pdf) for more details.
 
 ## Run the Simulation
@@ -16,6 +19,9 @@ See the [project review](https://eleonoramisino.altervista.org/wp-content/upload
 2. Open it with [NetLogo](https://ccl.northwestern.edu/netlogo/index.shtml).
 3. Follow the instruction reported in the model *Info*.
 
+#### Model Interface
+
+<img src="https://github.com/EleMisi/TinyProjects/blob/master/SARS-CoV-2_Simulation/images/ModelOverview.jpg" alt="drawing" width="800"/>
 
 ## Built With
 
