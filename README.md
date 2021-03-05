@@ -6,7 +6,6 @@ For each project you can find more information on my website.
 
 * **Agent-based Simulation**
   * [Hospital Reception](https://eleonoramisino.altervista.org/hospital-reception/)
-  * [SARS-CoV-2 spread in a Company](https://eleonoramisino.altervista.org/sars-cov-2-spread-in-a-company/)
 
 * **Image Analysis**
   * [Fruit Inspection](https://eleonoramisino.altervista.org/fruit-inspection/)
