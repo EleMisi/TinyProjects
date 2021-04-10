@@ -2,9 +2,9 @@
 
 *Let’s consider a publishing house which has to commission a translation, how should it select a valid translator?*
 
-In this project defined a simple **Bayesian network** to explore the world of uncertainty using **pgmpy** Python library.  
-I started by defining the conditional probability distributions of my model, and I analyzed the independence relations among my network nodes.
-Then, I compared 3 approximate inference methods (Weighted Likelihood, Rejection Sampling, Gibbs Sampling) using the exact inference as a baseline.
+In this project defined a simple **Bayesian network** to explore the world of uncertainty using **pgmpy** and **networkx**.    
+I started by defining the conditional probability distributions of my model, and I analyzed the independence relations among my network nodes.  
+Then, I compared 3 approximate inference methods (**Weighted Likelihood, Rejection Sampling, Gibbs Sampling**) using the exact inference as a baseline.
 
 ### Built With
 
