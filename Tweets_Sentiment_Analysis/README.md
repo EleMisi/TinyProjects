@@ -1,6 +1,7 @@
-#Sentiment Analysis on Tweets
+# Sentiment Analysis on Tweets
 
-As part of [Data Mining, Text Mining and Big Data Analytics exam](https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2020/446610), I performed a sentiment analysis on a large supervised dataset of tweets ([Sentiment140 dataset](https://www.kaggle.com/kazanova/sentiment140)).
+As part of [Data Mining, Text Mining and Big Data Analytics exam](https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2020/446610), I performed a sentiment analysis on a large supervised dataset of tweets ([Sentiment140 dataset](https://www.kaggle.com/kazanova/sentiment140)). 
+
 The project is focused on **exploring 3 text representation strategies**:
 * *Bag-of-Words* (BoW)
 * *TF-IDF* 
@@ -11,7 +12,7 @@ and **comparing 3 classifiers**:
 * *Logistic Regression* (LogReg)
 * *Multi-layer Perceptron* (MLP)
 
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rMkiqWoQvKZJAD4D2TqZTLexob6csivd?usp=sharing)
 _________________________
 **Project workflow**
 
@@ -25,4 +26,30 @@ _________________________
 
 _________________________
 
+## Models Training
+I fine-tuned and trained 16 different combinations of text pre-processing, text representation and classifier.
+All the information about models configurations and training are reported in the notebook.
+
 ## Results
+Here are the models accuracy on test set (please refer to section *Models Comparison* of the notebook for more details).
+![image](https://user-images.githubusercontent.com/33552669/114263696-725b1900-99e7-11eb-9fdd-12299069beb3.png)
+![image](https://user-images.githubusercontent.com/33552669/114263707-79822700-99e7-11eb-852b-5c813982fd14.png)
+
+______________________
+
+### Built With
+
+* [Python 3.7](https://www.python.org/downloads/release/python-370/)
+
+
+### Author
+
+* [EleMisi](https://github.com/EleMisi)
+
+
+### License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE.md](https://github.com/EleMisi/TinyProjects/blob/master/LICENSE) file for details.
+
+### External links
+* Ream more about this project on my [website](https://eleonoramisino.altervista.org/sentiment-analysis-on-tweets/).
