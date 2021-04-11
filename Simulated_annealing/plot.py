@@ -1,17 +1,10 @@
-import sys, os
-
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D  
 import numpy as np
-from numpy import random as rnd
 
-sys.path.append(os.path.dirname(os.path.realpath(__file__)) + "/../Eleonora_Misino-Project_2020")
-from test_functions import ackley_fn, rastrigin_fn, rosenbrock_fn, himmelblau_fn
+from test_functions import ackley_fn, himmelblau_fn, rastrigin_fn, rosenbrock_fn
 
 
 def plot_results(results):
-
-    
 
     #--------Test functions plot--------
 
