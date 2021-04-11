@@ -21,18 +21,19 @@ The implemented **stopping criteria** are the following:
 * *Rastrigin function*
 ![Test Functions](https://github.com/EleMisi/TinyProjects/blob/master/Simulated_annealing/images/test_fn.png)
 ## Run the tests
-Dowload the folder and run
-```
-python run.py 
-```
-with optional arguments 
-* `-t` : `Float` -> Initial temperature. [default: 100]
-* `-k` : `Int` -> Max number of iterations. [default: 1e6]
-* `-tv`: `Float` -> Tolerance Energy value for stopping criterion [default: 1e-6]
-* `-ti` : `Int` -> Number of iterations taken into account in Tolerance Energy. [default: 1000]
-* `-o`: `Float` -> Objective function limit. [default: -1e10]
-* `-r`: `Float`  -> Reanniling tolerance value.[default: 100]
-* `-v` : `Bool` -> Verbose parameter, [default: False]
+1. Clone the repository
+2. On a terminal run:
+    ```
+    python run.py 
+    ```
+    with optional arguments 
+    * `-t` : `Float` -> Initial temperature. [default: 100]
+    * `-k` : `Int` -> Max number of iterations. [default: 1e6]
+    * `-tv`: `Float` -> Tolerance Energy value for stopping criterion [default: 1e-6]
+    * `-ti` : `Int` -> Number of iterations taken into account in Tolerance Energy. [default: 1000]
+    * `-o`: `Float` -> Objective function limit. [default: -1e10]
+    * `-r`: `Float`  -> Reanniling tolerance value.[default: 100]
+    * `-v` : `Bool` -> Verbose parameter, [default: False]
 
 ## Results
 In the figure below I report the results of a running with the default configuration.
