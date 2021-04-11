@@ -1,17 +1,10 @@
 
 #-----------Set the environment---------------
-import sys, os
 import argparse
-
-import matplotlib.pyplot as plt
-import numpy as np
-from numpy import random as rnd
 
 from plot import plot_results
 from algorithm import SA, geom_cooling, boltz_acceptance_prob, boltz_move
 from test_functions import ackley_fn, rastrigin_fn, rosenbrock_fn, himmelblau_fn
-
-#rnd.seed(42)
 
 if __name__ == '__main__':
 
