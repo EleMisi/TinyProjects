@@ -11,8 +11,6 @@ and **comparing 3 classifiers**:
 * *Multinomial Naive Bayes* (MNB)
 * *Logistic Regression* (LogReg)
 * *Multi-layer Perceptron* (MLP)
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rMkiqWoQvKZJAD4D2TqZTLexob6csivd?usp=sharing)
 _________________________
 **Project workflow**
 
@@ -24,7 +22,16 @@ _________________________
 5.   *Models Training*
 6.   *Models Comparison* 
 
+
+(Please refer to the [notebook](https://github.com/EleMisi/TinyProjects/blob/master/Tweets_Sentiment_Analysis/tweets_sentiment_analysis.ipynb) for a more detailed description.)
 _________________________
+
+## How to Run
+> Download the [notebook](https://github.com/EleMisi/TinyProjects/blob/master/Tweets_Sentiment_Analysis/tweets_sentiment_analysis.ipynb) and run locally with [Jupyter](https://jupyter.org/)  
+ 
+or  
+
+> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rMkiqWoQvKZJAD4D2TqZTLexob6csivd?usp=sharing)
 
 ## Models Training
 I fine-tuned and trained 16 different combinations of text pre-processing, text representation and classifier.
@@ -52,4 +59,4 @@ ______________________
 This project is licensed under the Apache License 2.0 - see the [LICENSE.md](https://github.com/EleMisi/TinyProjects/blob/master/LICENSE) file for details.
 
 ### External links
-* Ream more about this project on my [website](https://eleonoramisino.altervista.org/sentiment-analysis-on-tweets/).
+* Read more about this project on my [website](https://eleonoramisino.altervista.org/sentiment-analysis-on-tweets/).
